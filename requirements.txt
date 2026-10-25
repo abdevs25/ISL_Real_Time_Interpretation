@@ -1,0 +1,11 @@
+torch
+numpy
+scikit-learn
+# HolisticLandmarker (used by extract_dataset.py and the webcam demo) is missing
+# in mediapipe 0.10.32 and older. It was found in 1.1.0 (the version this was tested with).
+mediapipe>=1.0.0
+opencv-python
+matplotlib            # confusion-matrix PNG (optional)
+# optional, only for the web front end backend:
+# fastapi
+# uvicorn
